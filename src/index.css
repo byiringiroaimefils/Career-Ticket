@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+   background-color: transparent;
+   color: inherit;
+   font-family: 'Work Sans', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900 antialiased;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl font-bold;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl font-semibold;
+    font-family: 'Work Sans', sans-serif;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-gray-900/50 backdrop-blur-sm rounded-xl border border-gray-700/50
+           transition-all duration-300 hover:shadow-xl hover:shadow-white/10
+           hover:-translate-y-1 overflow-hidden w-full;
+  }
+
+  .btn {
+    @apply px-6 py-2 rounded-full font-semibold transition-all duration-300
+           hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+
+  .fade-in {
+    @apply opacity-0;
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+  
+  .fade-in-delay-1 {
+    animation-delay: 0.2s;
+  }
+  
+  .fade-in-delay-2 {
+    animation-delay: 0.4s;
+  }
+  
+  .fade-in-delay-3 {
+    animation-delay: 0.6s;
+  }
+  .fade-in-delay-4 {
+    animation-delay: 0.8s;
+  }
+  .fade-in-delay-5 {
+    animation-delay: 1s;
+  }
+
+  .content-container {
+    @apply max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .grid-container {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8;
+  }
+
+  .card-container {
+    @apply w-full h-full flex flex-col;
+  }
+
+  .section-title {
+    @apply flex flex-col items-center text-center mb-12 md:mb-16;
+  }
+
+  .section-title h2 {
+    @apply text-3xl md:text-4xl font-bold mb-4;
+  }
+
+  .section-title p {
+    @apply text-gray-400 max-w-2xl mx-auto;
+  }
+
+  .section-title-line {
+    @apply w-20 h-1 bg-white mt-4 rounded-lg;
+  }
+}
+
+/* Grid background */
+.grid-background {
+  @apply min-h-screen w-full relative overflow-hidden bg-white;
+  background-image: 
+    linear-gradient(to right, rgba(128, 128, 128, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(128, 128, 128, 0.1) 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-position: center;
+  width: 100vw;
+}
+
+/* Add white glow effect */
+.grid-background::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0.95) 100%
+  );
+  z-index: 1;
+}
+
+.grid-background::after {
+  content: none;
+}
+
+/* Make sure content stays above the white glow */
+.grid-background > div {
+  position: relative;
+  z-index: 2;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Update container styles */
+.container {
+  @apply max-w-7xl mx-auto;
+}
+
+/* Remove any transform styles that might be causing overflow */
+.translate-x-2 {
+  @apply transform-none;
+}
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide-effect .span {
+ width: 100%;
+ height: 25%;
+ background-color: black;
+ opacity: 0.5;
+ padding: 10px;
+
+}

@@ -12,23 +12,23 @@ export default function Statics() {
                 </div>
                 <br /><br />
                 <div className="md:flex gap-20 my-10 ">
-                    <div className=" w-96 bg-indigo-500 p-9 text-center rounded-xl shadow-md transition-shadow hover:shadow-lg">
-                        <Activity className='translate-x-16 translate-y-8 text-white size-8' />
-                        <h3 className="font-extrabold text-4xl text-white">92% </h3><br />
-                        <p className="text-white font-extrabold">all today’s jobs require digital skills according to the National Skill Coalition’s 2023 Report.
+                    <div className=" w-96 bg-gray-50 p-9 text-center rounded-xl shadow-md transition-shadow hover:shadow-lg">
+                        <Activity className='translate-x-16 translate-y-8  size-8' />
+                        <h3 className="font-extrabold text-4xl ">92% </h3><br />
+                        <p className=" font-extrabold">all today’s jobs require digital skills according to the National Skill Coalition’s 2023 Report.
                             According to Harvard University Research
                         </p>
                     </div>
-                    <div className=" w-96 border-1  bg-gray-50 p-9 text-center rounded-xl shadow-md transition-shadow hover:shadow-lg">
-                        <Activity className='translate-x-16 translate-y-8 size-8' />
-                        <h3 className="font-extrabold text-4xl">85%</h3><br />
-                        <p className=" font-extrabold "> Job success comes from having well‐developed soft and people skills</p>
+                    <div className=" w-96 border-1 bg-indigo-500 p-9 text-center rounded-xl shadow-md transition-shadow hover:shadow-lg">
+                        <Activity className='translate-x-16 translate-y-8 size-8 text-white' />
+                        <h3 className="font-extrabold text-4xl text-gray-200">85%</h3><br />
+                        <p className=" font-extrabold text-gray-200 "> Job success comes from having well‐developed soft and people skills</p>
                     </div>
 
-                    <div className="w-96 bg-indigo-500 p-9 text-center rounded-xl shadow-md transition-shadow hover:shadow-lg">
-                        <Activity className='translate-x-16 translate-y-8 text-white size-8' />
-                        <h3 className=" font-extrabold text-4xl text-white">15%</h3><br />
-                        <p className="text-white font-extrabold">Job success comes from technical skills and knowledge (hard skills).</p>
+                    <div className="w-96  bg-gray-50 p-9 text-center rounded-xl shadow-md transition-shadow hover:shadow-lg">
+                        <Activity className='translate-x-16 translate-y-8  size-8' />
+                        <h3 className=" font-extrabold text-4xl ">15%</h3><br />
+                        <p className="font-extrabold">Job success comes from technical skills and knowledge (hard skills).</p>
                     </div>
                 </div>
 

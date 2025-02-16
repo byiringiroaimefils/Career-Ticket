@@ -32,4 +32,3 @@ Soft Skills: In today’s rapidly evolving job market, soft skills are key to ca
 Workplace Tools: Learn how to use the tools and technologies commonly used in today’s workplaces, from project management platforms to collaborative tools and productivity software. 
 Career Skills: Whether you are pursuing freelancing, remote work, consulting, entrepreneurship or traditional employment, our program equips you with the career skills needed to succeed in your chosen career. Gain the knowledge and strategies to navigate job marketing, craft compelling resumes, build your profile & portfolio, and master job interview skills.
 
-##Technlogies

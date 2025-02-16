@@ -18,14 +18,5 @@ This program has a big focus on the soft skills and digital skills needed to lea
 According to Harvard University Research, 85% of job success comes from having well‐developed soft and people skills, and only 15% of job success comes from technical skills and knowledge (hard skills).
 
 
-Career Ticket Umurava empowers young individuals to get ready to succeed in the career paths that they want to pursue: 
-Freelancers
-Remote Workers
-Consultants 
-Entrepreneurs
-Employees
-
-Career Ticket by Umurava Skills Package covers 4 areas: 
-
 
 

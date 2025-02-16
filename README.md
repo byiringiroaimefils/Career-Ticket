@@ -27,8 +27,5 @@ Employees
 
 Career Ticket by Umurava Skills Package covers 4 areas: 
 
-Digital Skills: From basic computer literacy to advanced digital proficiency, our program ensures that participants are digitally confident, tech-savvy, and have the technical know-how to thrive in digital work environments.  Master essential software, applications, tools, and skills to operate confidently in the digital world. 
-Soft Skills: In today’s rapidly evolving job market, soft skills are key to career success and are being demanded by every employer. Soft skills refer to personal attributes and interpersonal abilities that enhance collaboration, communication, and overall effectiveness in the workplace. These skills are transferable and applicable across industries, making them essential for professional growth and advancement. 
-Workplace Tools: Learn how to use the tools and technologies commonly used in today’s workplaces, from project management platforms to collaborative tools and productivity software. 
-Career Skills: Whether you are pursuing freelancing, remote work, consulting, entrepreneurship or traditional employment, our program equips you with the career skills needed to succeed in your chosen career. Gain the knowledge and strategies to navigate job marketing, craft compelling resumes, build your profile & portfolio, and master job interview skills.
+
 
